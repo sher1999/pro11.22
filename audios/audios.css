@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    background-image: url(../images/backaud.jpg);
+    background-size: 100% 100%;
+}
+.navbar ul{
+    display: flex;
+    justify-content:center;
+    padding: 20px 15px;
+    background-color: beige;
+    
+}
+ 
+.navbar ul li {
+    list-style-type: none;
+      padding: 0px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+     padding: 10px 20px ;
+     font-size: 25px;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+   background-color:#3569AE;
+   color: white;
+   border-radius:   10%;
+}
+
+.butt{
+    display: flex;
+     margin: auto;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+ .butt p{
+     font-size: 30px;
+     padding: 10px 20px;
+    background-color:#060F30;
+    border-radius: 10%;
+    color: rgb(53, 105, 174);
+    
+ }
+ .butt p:hover{
+    background-color: rgb(133, 27, 126) ;
+    border-radius: 100%;
+    color: white;
+ }
+ .name{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 10px 30px ; 
+}
+h3{
+    color: #72CB4C;
+    margin: 0px 60px;
+}
+#h11{
+   padding: 0px 20px;
+  }
+ #h33{
+   padding-left: 30px;
+ }
+ #h22{
+     padding-left: 30px;
+ }
+
+ .muz{
+    display: flex;
+    justify-content: center;
+    margin: 10px 
+}
+.muz audio{
+    margin: 0px 30px;
+}
+.muz2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 
+}
+.muz2 audio{
+    margin: 0px 30px;
+}
+.muz3{
+    display: flex;
+    justify-content: center;
+    margin: 20px 
+}
+.muz3 audio{
+    margin: 0px 30px;
+}
+audio{
+    margin: 0px 20px; 
+    padding: 10px;
+ 
+ }
+ audio:hover{
+     background-color: #CB6055;
+     border-radius: 20%;
+ }

@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    background-image: url(./images/backhome.jpg);
+    background-size: 100% 100%;
+}
+.navbar ul{
+    display: flex;
+    justify-content:flex-start right;
+    padding: 20px 15px;
+    background-color: beige;
+    
+}
+ 
+.navbar ul li {
+    list-style-type: none;
+      padding: 0px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+     padding: 10px 20px ;
+     font-size: 25px;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+   background-color:#3569AE;
+   color: white;
+   border-radius:   10%;
+
+}
+
+.images{
+  
+    margin: 50px 0px;
+ 
+}
+.butt{
+   display: flex;
+    margin: auto;
+   border: none;
+   cursor: pointer;
+}
+.butt p{
+    font-size: 30px;
+    padding: 10px 20px;
+   background-color:#060F30;
+   color: rgb(53, 105, 174);
+   
+}
+.butt p:hover{
+   background-color: rgb(133, 27, 126) ;
+   border-radius: 100%;
+   color: white;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+   
+}
+.photo img{  
+    height: 250px;
+    margin: 0px 30px; 
+    padding: 10px;
+   border-radius: 10%;
+   cursor: pointer;
+}
+.photo img:hover{
+    background-color: #70799b;
+} 
+.videos{
+    height: 100vh;
+    background-image: url(./images/backhome.jpg);
+    background-size: 100% 100%;
+    margin-top: 10px;
+}
+.camera{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.camera video{ 
+    margin: 0px 30px; 
+    padding: 10px;
+    cursor: pointer;
+}
+.camera video:hover{ 
+   background-color: #70799b;
+   border:dotted;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 10px 30px ; 
+}
+h3{
+    color: white;
+    margin: 0px 60px;
+}
+#h11{
+   padding: 0px 20px;
+  }
+ 
+.muz{
+    display: flex;
+    justify-content: center;
+   
+}
+audio{
+   margin: 0px 20px; 
+   padding: 10px;
+
+}
+audio:hover{
+    background-color: #CB6055;
+    border-radius: 20%;
+}
+.page ul{
+    display: flex;
+    justify-content:flex-end;  
+
+}
+.page ul li{
+    list-style-type: none;
+}
+.page ul li a{
+    text-decoration: none;
+     padding: 10px 20px ;
+     font-size: 30px;
+     color: aliceblue;
+}
+.page ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 50%;
+}
+
+
+
+

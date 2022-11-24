@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    background-image: url(../images/backvideo.jpg);
+    background-size: 100% 100%;
+}
+.navbar ul{
+    display: flex;
+    justify-content:center;
+    padding: 20px 15px;
+    background-color: beige;
+    
+}
+ 
+.navbar ul li {
+    list-style-type: none;
+      padding: 0px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+     padding: 10px 20px ;
+     font-size: 25px;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+   background-color:#3569AE;
+   color: white;
+   border-radius:   10%;
+}
+
+.videos{
+    margin: 20px 0px;
+}
+
+.camera{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-image: url(../images/backvideo.jpg);
+    
+}
+.camera video{ 
+    margin: 0px 30px; 
+    padding: 10px;
+    cursor: pointer;
+}
+.camera video:hover{ 
+   background-color: #70799b;
+   border:dotted;
+}
+
+
+.butt{
+    display: flex;
+     margin: auto;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+ }
+ .butt p{
+     font-size: 30px;
+     padding: 10px 20px;
+    background-color:#060F30;
+    color: rgb(53, 105, 174);
+   
+    
+ }
+ .butt p:hover{
+    background-color: rgb(133, 27, 126) ;
+   
+    color: white;
+ }
+ .cam{
+    height: 100vh;
+    background-image: url(../images/backvideo.jpg);
+    background-size: 100% 100%;
+ }
+ 
